@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    color: #333;
+    padding: 2rem;
+}
+
+/* Header */
+header {
+    background: #2196f3;
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Main content */
+main {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#actionButton {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#actionButton:hover {
+    background: #45a049;
+}
+
+/* Instructions section */
+#instructions {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#instructions h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1976d2;
+}
+
+#instructions h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    color: #0d47a1;
+}
+
+#instructions ul {
+    list-style: disc inside;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+#instructions li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+/* Code highlight */
+code {
+    background: #e0e0e0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #d32f2f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    #instructions h2 {
+        font-size: 1.5rem;
+    }
+
+    #instructions h3 {
+        font-size: 1.1rem;
+    }
+}
