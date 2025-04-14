@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     button.addEventListener('click', function () {
         const members = [
             { name: 'Tom', icon: '🐱' },
-            { name: 'Jerry', icon: '🐭' },
+            { name: 'Jerry', iconImg: 'img/jerry.jpg' },
             { name: 'Spike', iconImg: 'img/spike.jpg' }
         ];
 
